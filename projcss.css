@@ -1,0 +1,157 @@
+﻿
+
+body {
+   background-image: url("back.png");
+   background-position: right bottom; 
+   background-repeat: no-repeat; 
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0.05em;
+	background-color: rgb(40, 152, 255);
+	line-height: 3.5em;
+	text-transform: uppercase;
+	border-radius: 15px;
+}
+
+nav ul li:hover {
+	background-color: rgb(125,186,240);
+	border-radius: 10px;
+}
+
+nav ul li a {
+	color: #CAE7EB;
+	text-decoration: none;
+	padding-left: 0.8em;
+}
+
+
+nav {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 40px;
+	margin-top: 16px;
+}
+
+
+fieldset{
+	border:none;
+	margin:5px;
+}
+
+h1{
+	margin-left: 26%;
+	color:rgb(30,60,120);
+}
+
+label{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 16%;
+	display:block;
+	clear: left;
+	float: left;
+	font-size: 1.1em;
+	text-align: right;	
+}
+
+legend{
+	font-family: Palatino Linotype, Book Antiqua, Palatino;
+	background-color:rgb(40, 152, 255);
+	text-indent:16px;
+	width:54%;
+	border-radius: 10px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	color:black;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:14px;
+	color: #C4ECEC;
+	text-decoration: none;
+	
+}
+
+input{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display:block;
+	float: left;
+	font-size: 0.9em;
+	width: 29%;
+}
+
+select
+{
+	display:block;
+	float: left;
+	font-size: 0.9em;
+	margin: 2px;
+}
+
+textarea{
+	display:block;
+	float: left;
+	font-size: 0.9em;
+	height: 75px;
+	width: 60%;
+}
+
+
+
+input[type="submit"]{
+
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	color: #CAE7EB;
+	font-weight: bold;
+	margin-left: 28%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: rgb(40, 152, 255);
+	float: none;
+	width: 250px;
+	height: 30px;
+	border-color: #C4ECEC;
+}
+
+
+input:focus, select:focus, textarea:focus{
+	background-color: white;
+}
+
+footer address {
+	color: rgb(30, 30, 30);
+	font-style: normal;
+	font-size: 0.9em;
+	margin-left: 16%;
+}
+
+
+/*
+input:invalid{ 
+	background: rgb(125,186,240) url("stop.png") bottom right no-repeat;
+}
+*/
+
+input:focus:valid { 
+	background: rgb(155,216,255) url("go.png") bottom right no-repeat;
+}
+
+
+.button{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    line-height: 24px;
+    margin: 0 4px -6px -4px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}

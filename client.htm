@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+	<meta charset="UTF-8" />
+	<meta name="author" content="George Power" />
+	<script src="modernizr-1.5.js"></script>
+	<link href="projcss.css" rel="stylesheet" type="text/css" />
+   </head>
+
+   <body>
+
+      <header>
+         <img src="tmphead.png" usemap="logomap" />
+	
+	 <map name="logomap">
+	     <area shape="circle" coords="87, 85, 82" href="menu.htm" alt="crclogo" />
+	     <area shape="rect" coords="280,130,365,150" href="client.htm" alt="tbl1" />
+	     <area shape="rect" coords="400,130,505,150" href="business.htm" alt="tbl2" />
+	     <area shape="rect" coords="540,130,680,150" href="bridge.htm" alt="bridge" />
+	 </map>
+      </header>
+
+      <nav>   
+         <ul>
+            <li><a href="client.htm">Client</a></li>
+            <li><a href="business.htm">Business</a></li>
+            <li><a href="bridge.htm">Assign</a></li>
+	    <li><a href="https://live.com">Live</a></li>
+	    <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+	    <li><a href="https://www.amazon.com/">Amazon</a></li>
+	    <li><a href="https://www.bing.com/">Bing</a></li>
+	    <li><a href="http://www.google.ca">Google</a></li>
+         </ul>
+      </nav>
+
+<section>
+
+         <h1>Submit New Client Form</h1>		
+		<form method="post" action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" >
+		<fieldset id="person">
+
+		<legend>Personal Information (required)</legend>
+			<label for="fName">First Name</label>
+			<input type="text" name="fName" required="required"/>
+
+			<label for="lName" >Last Name</label>
+			<input type="text" name="lName" required="required"/>
+
+			<label for="street">Street Address</label>
+			<input type="text" name="street" required="required"/>
+
+			<label for="city">City</label>
+			<input type="text" name="city" required="required"/>
+		
+		<label for="Province">Province</label>
+		<select name="state" required="required">
+			<option>AB</option><option>BC</option><option>MB</option><option>NB</option>
+			<option>NL</option><option>NT</option><option>NS</option><option>NU</option>
+			<option>ON</option><option>PE</option><option>QC</option><option>SK</option>
+			<option>YT</option>
+		</select>
+		
+		<label for="zip">Postal Code</label>
+		<input type="text" name="zip" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" required="required"/>
+		
+		<label for="country">Country</label>
+		<input type="text" name="country" value="Canada" required="required"/>
+		
+		<label for="phone">Phone</label>
+		<input type="text" name="phone" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" required="required" />
+
+		<label for="email">Contact Email</label>
+		<input type="email" name="email" required="required" ></input>
+					
+		</fieldset>
+
+		<fieldset id="something else">
+
+		<legend>Additional Detail</legend>
+			<label for="preEmploy">Previous Employer</label>
+			<input type="text" name="preEmploy" required="required"/>
+
+			<label for="toop" >toop</label>
+			<input type="text" name="toop" required="required"/>
+
+			<label for="moop">moop</label>
+			<input type="text" name="moop" required="required"/>
+
+			<label for="joop">joop</label>
+			<input type="text" name="joop" required="required"/>
+
+			<label for="goop">goop</label>
+			<input type="text" name="goop" required="required"/>
+
+			<label for="noop">noop</label>
+			<input type="text" name="noop" required="required"/>
+
+			<label for="boop">boop</label>
+			<input type="text" name="boop" required="required"/>
+
+			<label for="toop" >toop</label>
+			<input type="text" name="toop" required="required"/>
+
+			<label for="moop">moop</label>
+			<input type="text" name="moop" required="required"/>
+
+			<label for="joop">joop</label>
+			<input type="text" name="joop" required="required"/>
+					
+		</fieldset>
+
+		<input type="submit" value="Submit New Client"/>
+		</form>
+
+
+
+	<footer>
+		<address>
+         		GP Productions &bull;
+         		141 O'Connell Drive &bull;
+         		Corner Brook, NL  A2H 6H6 &bull;
+         		(709) 555 - 5555 
+		</address>
+	</footer>
+	</section>
+
+   </body>
+
+</html>

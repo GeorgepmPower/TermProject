@@ -1,0 +1,75 @@
+﻿
+
+body {
+   background-image: url("back.png");
+   background-float: bottom;
+   background-position: 100%; 
+   background-repeat: no-repeat; 
+}
+
+
+fieldset{
+	border:none;
+	margin:5px;
+}
+
+
+label{
+	margin-top: 8px;
+	margin-bottom: 2px;
+	margin-left: 60px;
+	margin-right: 5px;
+	width: 20%;
+	display:block;
+	clear: left;
+	float: left;
+	font-size: 1.1em;
+	text-align: right;	
+}
+
+legend{
+	font-family: Palatino Linotype, Book Antiqua, Palatino;
+	background-color:rgb(40, 152, 255);
+	text-indent:16px;
+	width:38%;
+	border-radius: 10px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	color:black;
+	margin-left: 206px;
+	margin-bottom:4px;
+	color: #C4ECEC;
+	text-decoration: none;
+	
+}
+
+input{
+	margin-top: 8px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display:block;
+	float: left;
+	font-size: 0.9em;
+	width: 26%;
+}
+
+
+input[type="submit"]{
+
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	color: #CAE7EB;
+	font-weight: bold;
+	margin-left: 27%;
+	margin-top: 1px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: rgb(40, 152, 255);
+	float: none;
+	width: 250px;
+	height: 30px;
+	border-color: #C4ECEC;
+}
+
+
+
